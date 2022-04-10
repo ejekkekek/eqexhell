@@ -138,12 +138,12 @@ function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=addres
 
 
 gg.setVisible(false)
-if gg.isPackageInstalled("fsm.vip.gg") then
+if gg.isPackageInstalled("fsm.eqestore.gg") then
 else
   gg.alert("❌ 𝐹𝑆𝑀 𝑉𝐼𝑃 𝐺𝐺 𝐾𝑢𝑙𝑙𝑎𝑛❌ ")
   return os.exit()
 end
-if gg.PACKAGE == "fsm.vip.gg" then
+if gg.PACKAGE == "fsm.eqestore.gg" then
 else
   gg.alert("❌ 𝐹𝑆𝑀 𝑉𝐼𝑃 𝐺𝐺 𝐾𝑢𝑙𝑙𝑎𝑛 ❌")
   return os.exit()
