@@ -1,4 +1,12 @@
-
+gg.setVisible(false)
+Password = "fsmvip" 
+Result = gg.prompt({"\n🔑 PASSWORD🔑 \n"},nil,{"text","checkbox"}) 
+if Result[1]  == Password then 
+gg.alert("✔️ ᴋᴇʏɪɴɪᴢ ᴅᴏɢ̆ʀᴜ ɢɪʀɪş ʙᴀşᴀʀɪʟɪ ɪʏɪ ᴏʏᴜɴʟᴀʀ ✔️") 
+else 
+gg.alert("❌ ᴋᴇʏ ʏᴀɴʟɪş ","❌")  
+return  
+end
 
 
 function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end
