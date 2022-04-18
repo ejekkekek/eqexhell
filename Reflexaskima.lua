@@ -1,3 +1,4 @@
+gg.alert("𝑃𝑟𝑜𝑡𝑒𝑐𝑡𝑐𝑖𝑜𝑛 𝑎𝑛𝑑 𝑙𝑢𝑎 𝑏𝑦 𝑒𝑞𝑒𝑥ℎ𝑒𝑙𝑙")
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("2,200,101", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
